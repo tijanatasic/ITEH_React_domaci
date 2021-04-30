@@ -1,0 +1,22 @@
+body {
+    background-color: #fff8db;
+}
+
+.collection-item.reserved {
+    filter: saturate(10%);
+}
+
+.collection-item {
+    user-select: none;
+    height: 5em;
+}
+
+
+form button {
+    width: 100px;
+    margin-top: 0.5em;
+}
+
+ul li a.active {
+    filter: invert(1);
+}
